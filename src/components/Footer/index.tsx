@@ -72,7 +72,7 @@ const Footer = () => {
                   <li>
                   </li>
                   <li>
-                    <span className="font-bold">Telefon:</span> <a href="tel:+36707746362" className="text-white underline">+36 (70) 774 6362</a>
+                    <span className="font-bold">Email:</span> <a href="mailto:info@vizgyors.hu" className="text-white underline">info@vizgyors.hu</a>
                   </li>
                   <li>
                     <span className="font-bold">Email:</span> <a href="mailto:info@h2ogyorsszerviz.hu" className="text-white underline">info@h2ogyorsszerviz.hu</a>

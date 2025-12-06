@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <header
       className={`header top-0 left-0 z-40 flex w-full items-center transition-all ${
-        sticky
+        sticky && typeof window !== 'undefined' && window.innerWidth >= 768
           ? "bg-primary bg-opacity-40 shadow-sticky fixed z-9999"
           : "absolute bg-transparent"
       }`}
@@ -65,9 +65,10 @@ const Header = () => {
             </Link>
           </div>
           <div className="flex items-center justify-end pr-16 lg:pr-0">
+            {/* Csak desktopon jelenik meg a telefonszám */}
             <a
               href="tel:+36707746362"
-              className="font-bold text-base text-white hover:underline focus:outline-none drop-shadow-lg whitespace-nowrap md:text-2xl sm:text-lg"
+              className="hidden md:inline font-bold text-base text-white hover:underline focus:outline-none drop-shadow-lg whitespace-nowrap md:text-2xl sm:text-lg"
               style={{ background: "none", border: "none", padding: 0 }}
             >
               +36 (70) 774 6362
