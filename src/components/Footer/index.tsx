@@ -20,7 +20,8 @@ const Footer = () => {
                     className="w-full"
                     width={140}
                     height={30}
-                    {...imageProtectionProps}
+                    draggable={false}
+                    onDragStart={imageProtectionProps.onDragStart}
                   />
                 </Link>
                 <p className="mb-6 text-base leading-relaxed text-white">
