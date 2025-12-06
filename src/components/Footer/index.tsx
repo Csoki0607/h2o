@@ -1,8 +1,11 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { useContentProtection } from "@/hooks/useContentProtection";
 
 const Footer = () => {
+  const { imageProtectionProps } = useContentProtection();
+
   return (
     <>
       <footer className="relative z-10 bg-primary bg-opacity-40 pt-16 md:pt-20 lg:pt-24">
@@ -17,6 +20,7 @@ const Footer = () => {
                     className="w-full"
                     width={140}
                     height={30}
+                    {...imageProtectionProps}
                   />
                 </Link>
                 <p className="mb-6 text-base leading-relaxed text-white">

@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
+import { useContentProtection } from "@/hooks/useContentProtection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useContentProtection();
   return (
     <html suppressHydrationWarning lang="en">
       {/*
