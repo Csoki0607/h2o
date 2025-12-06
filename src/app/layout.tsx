@@ -44,8 +44,8 @@ export default function RootLayout({
                       src="/kepek/szechenyi2.jpg"
                       alt="Széchenyi pályázat logó"
                       style={{
-                        width: 56,
-                        height: 56,
+                        width: 112,
+                        height: 112,
                         objectFit: 'contain',
                         borderRadius: 8,
                         boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
