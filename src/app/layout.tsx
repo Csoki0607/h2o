@@ -2,7 +2,7 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ScrollToTop from "@/components/ScrollToTop";
+// ...existing code...
 import { Inter } from "next/font/google";
 import "../styles/index.css";
 import { useContentProtection } from "@/hooks/useContentProtection";
@@ -28,7 +28,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
-          <ScrollToTop />
+          {/* ScrollToTop gomb eltávolítva */}
           {/* Mobil sticky call sáv alul, csak hívás gomb */}
           <div className="fixed bottom-0 left-0 w-full z-50 md:hidden">
             <a
