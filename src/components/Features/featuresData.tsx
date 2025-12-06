@@ -13,7 +13,7 @@ const featuresData: Feature[] = [
   {
     id: 2,
     icon: (
-      <img src="/kepek/ikonok/dugulas.png" alt="Dugulás ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/dugulas.webp" alt="Dugulás ikon" width={40} height={40} />
     ),
     title: "Szifoncsere és lefolyó javítás",
     paragraph:
@@ -21,7 +21,7 @@ const featuresData: Feature[] = [
   {
     id: 3,
     icon: (
-      <img src="/kepek/ikonok/csotores.png" alt="Csőtörés ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/csotores.webp" alt="Csőtörés ikon" width={40} height={40} />
     ),
     title: "Csőtörés bemérés és javítás",
     paragraph:
@@ -30,7 +30,7 @@ const featuresData: Feature[] = [
   {
     id: 4,
     icon: (
-      <img src="/kepek/ikonok/mosogep.png" alt="Mosógép ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/mosogep.webp" alt="Mosógép ikon" width={40} height={40} />
     ),
     title: "Mosógép és mosogatógép bekötés",
     paragraph:
@@ -39,7 +39,7 @@ const featuresData: Feature[] = [
   {
     id: 5,
     icon: (
-      <img src="/kepek/ikonok/csotores.png" alt="Csőtörés ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/csotores.webp" alt="Csőtörés ikon" width={40} height={40} />
     ),
     title: "Csőtörés és vízszivárgás elhárítás",
     paragraph:
@@ -48,7 +48,7 @@ const featuresData: Feature[] = [
   {
     id: 6,
     icon: (
-      <img src="/kepek/ikonok/024.png" alt="0-24 ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/024.webp" alt="0-24 ikon" width={40} height={40} />
     ),
     title: "0–24 órás vízszerelés, sürgős hibákhoz",
     paragraph:
