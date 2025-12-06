@@ -4,7 +4,7 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-      <img src="/kepek/ikonok/csaptelep.png" alt="Csaptelep csere ikon" width={40} height={40} />
+      <img src="/kepek/ikonok/csaptelep.webp" alt="Csaptelep csere ikon" width={40} height={40} />
     ),
     title: "Csaptelep csere és javítás",
     paragraph:
