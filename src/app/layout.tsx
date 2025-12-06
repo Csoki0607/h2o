@@ -32,8 +32,8 @@ export default function RootLayout({
                   <div
                     style={{
                       position: 'fixed',
-                      bottom: 64, // nem teljesen alul
-                      right: 32,
+                      bottom: 32,
+                      right: 8,
                       zIndex: 1000,
                       cursor: 'pointer',
                       transition: 'all 0.3s cubic-bezier(.4,2,.6,1)',
@@ -44,8 +44,8 @@ export default function RootLayout({
                       src="/kepek/szechenyi2.jpg"
                       alt="Széchenyi pályázat logó"
                       style={{
-                        width: 112,
-                        height: 112,
+                        width: 140,
+                        height: 140,
                         objectFit: 'contain',
                         borderRadius: 8,
                         boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
