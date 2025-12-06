@@ -1,3 +1,7 @@
+html, body {
+  background: #FCFCFC !important;
+  color-scheme: only light;
+}
 /* Google Fonts @import eltávolítva, csak Next.js font loader */
 
 @import 'tailwindcss';
