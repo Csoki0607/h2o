@@ -28,6 +28,32 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+                  {/* Széchenyi pályázat lebegő kép jobb alsó sarokban */}
+                  <div
+                    style={{
+                      position: 'fixed',
+                      bottom: 64, // nem teljesen alul
+                      right: 32,
+                      zIndex: 1000,
+                      cursor: 'pointer',
+                      transition: 'all 0.3s cubic-bezier(.4,2,.6,1)',
+                    }}
+                    className="group"
+                  >
+                    <img
+                      src="/kepek/szechenyi2.jpg"
+                      alt="Széchenyi pályázat logó"
+                      style={{
+                        width: 56,
+                        height: 56,
+                        objectFit: 'contain',
+                        borderRadius: 8,
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
+                        transition: 'transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s',
+                      }}
+                      className="group-hover:scale-150 group-hover:shadow-2xl group-hover:ring-2 group-hover:ring-primary"
+                    />
+                  </div>
           {/* ScrollToTop gomb eltávolítva */}
           {/* Mobil sticky call sáv alul, csak hívás gomb */}
           <div className="fixed bottom-0 left-0 w-full z-50 md:hidden">
