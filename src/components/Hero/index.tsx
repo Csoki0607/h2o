@@ -24,7 +24,7 @@ const Hero = () => {
                           </p>
                         <div className="mt-16">
                           <Link
-                            href="tel:+36201234567"
+                            href="tel:+36707746362"
                             className="rounded-lg bg-blue-600 px-10 py-5 text-lg font-bold text-white shadow-lg hover:bg-blue-700 transition"
                           >
                             📞 Hívás most

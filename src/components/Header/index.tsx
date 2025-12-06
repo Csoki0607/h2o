@@ -66,11 +66,11 @@ const Header = () => {
           </div>
           <div className="flex items-center justify-end pr-16 lg:pr-0">
             <a
-              href="tel:+36301234567"
+              href="tel:+36707746362"
               className="font-bold text-base text-white hover:underline focus:outline-none drop-shadow-lg whitespace-nowrap md:text-2xl sm:text-lg"
               style={{ background: "none", border: "none", padding: 0 }}
             >
-              +36 30 123 4567
+              +36 (70) 774 6362
             </a>
           </div>
         </div>
