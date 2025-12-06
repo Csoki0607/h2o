@@ -55,7 +55,7 @@ const Header = () => {
               }`}
             >
               <Image
-                src="/kepek/logo.png"
+                src="/kepek/logo.webp"
                 alt="Vízszerelő gyorsszolgálat logó"
                 width={240}
                 height={52}
