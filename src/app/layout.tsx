@@ -26,7 +26,9 @@ export default function RootLayout({
       <body className={`bg-[#FCFCFC] ${inter.className}`}>
         <Providers>
           <Header />
-          {children}
+          <main role="main">
+            {children}
+          </main>
           <Footer />
                   {/* Széchenyi pályázat lebegő kép jobb alsó sarokban */}
                   <div
