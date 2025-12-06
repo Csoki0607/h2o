@@ -41,7 +41,7 @@ export default function RootLayout({
                     className="group"
                   >
                     <img
-                      src="/kepek/szechenyi2.jpg"
+                      src="/kepek/szechenyi2.webp"
                       alt="Széchenyi pályázat logó"
                       style={{
                         width: 140,
