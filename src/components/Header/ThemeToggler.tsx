@@ -1,4 +1,2 @@
-// Dark mode kapcsoló törölve
-};
 
-export default ThemeToggler;
+// Dark mode kapcsoló végleg törölve
