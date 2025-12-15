@@ -92,6 +92,16 @@ const Footer = () => {
               &copy; {new Date().getFullYear()} H2O Gyorsszervíz – Minden jog
               fenntartva. Vízszerelés gyorsan, tisztán, garanciával.
             </p>
+            <div className="mt-2 text-center">
+              <a
+                href="https://villux.hu"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white underline hover:text-primary transition"
+              >
+                villux – villanyszerelő gyorsszolgálat
+              </a>
+            </div>
           </div>
         </div>
       </footer>
