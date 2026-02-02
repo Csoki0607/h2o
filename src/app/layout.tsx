@@ -77,7 +77,7 @@ export default function RootLayout({
               className="block w-full bg-primary text-white text-center font-bold py-4 text-lg shadow-lg"
               style={{ borderRadius: 0 }}
             >
-              Hívjon most: +36 (70) 774 6362
+              Hívjon most! +36 (70) 774 6362
             </a>
           </div>
         </Providers>
