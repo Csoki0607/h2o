@@ -22,8 +22,9 @@ const Header = () => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", handleStickyNavbar);
-  });
+  window.addEventListener("scroll", handleStickyNavbar);
+  return () => window.removeEventListener("scroll", handleStickyNavbar);
+}, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -63,16 +64,6 @@ const Header = () => {
                 style={{ objectFit: "contain" }}
               />
             </Link>
-          </div>
-          <div className="flex items-center justify-end pr-16 lg:pr-0">
-            {/* Csak desktopon jelenik meg a telefonszám */}
-            <a
-              href="tel:+36707746362"
-              className="hidden md:inline font-bold text-base text-white hover:underline focus:outline-none drop-shadow-lg whitespace-nowrap md:text-2xl sm:text-lg"
-              style={{ background: "none", border: "none", padding: 0 }}
-            >
-              +36 (70) 774 6362
-            </a>
           </div>
         </div>
       </div>
